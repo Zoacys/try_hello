@@ -1,0 +1,20 @@
+云 你好
+---
+parameters:
+  - name: name
+    in: query
+    type: string
+responses:
+  200:
+    schema:
+      examples: "hello 阿梓"
+      type: string
+  400:
+    schema:
+      examples: "余额不足"
+      type: string
+  500:
+    schema:
+      examples: "服务器故障"
+      type: string
+
